@@ -1,0 +1,31 @@
+Git - Global information Tracker 
+git is a distributed version control System that tracks changes in any set of computer file.
+if is used for Software development and other Collaborative projects.
+we can use git without GitHub, but can not use GitHub without git.
+
+git command -
+
+To check Git is install or not.
+1) git --version
+
+If Git is not install then
+2) sudo apt install git
+
+initialize the new repository
+3) git init
+
+To add the folder/file in repository
+4) git add .
+
+To commit the changes
+5) git commit -m "code 1"
+
+
+6) git config --global user.email "bhaktishirsat2312@gmail.com"
+7) git config --global user.name "bhaktishirsat"
+
+Before commit change copy the URL from the GitHub repository (Https)
+8) git remote add origin "https://github.com/bhaktishirsat/code-wad.git"
+
+9) git push -u origin master
+-u means flag to set upstream
